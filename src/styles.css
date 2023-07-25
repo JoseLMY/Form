@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 520px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.692);
+}
+.headerFormContainer{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+.headerForm{
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 26px;
+    border-bottom: 1px solid black;
+    width: 120px;
+}
+.labelName, .labelEmail, .labelMessage{
+    font-weight: 600;
+    margin-left: 22px;
+    margin: 12px ;
+}
+#name, #email{
+    background-color: rgba(192, 192, 192, 0.349);
+    border: none;
+    outline: none;
+    width: calc(100% - 32px);
+    height: 32px;
+    border-radius: 16px;
+    padding-left: 32px;
+    margin-bottom: 12px;
+}
+#name:focus, #email:focus, #message:focus{
+    background-color: rgba(126, 126, 126, 0.301);
+}
+#message{
+    resize: none;
+    outline: none;
+    background-color: rgba(192, 192, 192, 0.349);
+    border: none;
+    border-radius: 16px;
+    padding: 16px 0 0 16px;
+    margin-bottom: 12px;
+    margin: 0 8px;
+}
+.bSubmitContainer{
+    display: flex;
+    justify-content: center;
+}
+.bSubmit{
+    width: 120px;
+    height: 32px;
+    margin-top: 16px;
+    border: none;
+    background-color: rgba(101, 255, 127, 0.548);
+    border-radius: 8px;
+}
+.bSubmit:hover{
+    background-color: rgba(0, 211, 35, 0.548);
+    cursor: pointer;
+}
