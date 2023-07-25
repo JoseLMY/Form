@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="formContainer">
-            <form id="form" class="form" action="https://formspree.io/f/xdorkvnj" method="POST">
+            <form id="form" class="form" action="https://formspree.io/f/xdorkvnj" method="POST"> <!-- En el "action" de este formulario hice uso de una API que me permite hacer envios de los formularios a gmail pero sin que mi gmail quede revelado facilmente, el nombre del recurso que hicimos uso: formspree -->
                 <div class="headerFormContainer">
                     <label class="headerForm">Let's Talk:</label>
                 </div>
@@ -22,6 +22,7 @@
                     <button type="submit" class="bSubmit">Send</button>
                 </div>
             </form>
+            <a href="mailto:jose.lmy2004@gmail.com" id="trucazo">Enviar</a> <!-- Esta equita a con el href de mailto, se usa para poder enviar emails, lo que hace es abrir una ventana emergente para enviar los datos del cliente, esta etiqueta necesita una direccion email para que el email enviado tenga un destino, en este caso hice uso de uno de prueba que tengo. -->
         </div>
         <script src="/src/main.js"></script>
     </body>

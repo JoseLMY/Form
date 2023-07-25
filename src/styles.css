@@ -75,3 +75,7 @@ body{
     background-color: rgba(0, 211, 35, 0.548);
     cursor: pointer;
 }
+#trucazo{
+    display: none;
+    /* opacity: 0; */
+}
